@@ -60,7 +60,7 @@ It should also be noted that the total cost includes taxes and shipping midway t
     * [2.4k ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDFRYPK) | B07HDFRYPK | `$5.89`
  3. [GM 1 bar MAP with pigtail](https://www.ebay.com/itm/324792585183) | 12223861 | `$17.17`
  4. [IGN-4 coil](https://thedubshop.com/ign-4vw-coil-pack/) | IGN-4 | `$59.95`
- 5. [4x 33# low-impedence fuel injectors](https://www.ebay.com/itm/266002307469) | 0280150431 | `$96.17`
+ 5. [4x 33# high-impedence fuel injectors](https://www.ebay.com/itm/266002307469) | 0280150431 | `$96.17`
  6. [GM IAT open-element sensor](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/) | IATwPiggy | `$24.49`
  7. TPS
     * [m50 TPS](https://www.autozone.com/engine-management/throttle-position-sensor-tps/p/uro-throttle-position-sensor-tps-uro-017795/1323039_0_0?searchText=13631721456) | 13631721456 | `$55.81`
@@ -96,4 +96,71 @@ The following are parts that were considered but not used. The indices here corr
 
 ### Cam sync
 
-A general discussion for utilizing a hall effect sensor can be found on [rennlist](https://rennlist.com/forums/944-turbo-and-turbo-s-forum/1088676-fyi-crank-trigger-solution-for-30-no-trigger-wheel-needed.html). 
+A general discussion for utilizing a hall effect sensor can be found on [rennlist](https://rennlist.com/forums/944-turbo-and-turbo-s-forum/1088676-fyi-crank-trigger-solution-for-30-no-trigger-wheel-needed.html). The process used here is similar, with the only difference being the orientation of the sleeve bearing.
+
+As opposed to having the flange of the sleeve bearing on the outside of the cam timing belt cover:
+
+ 1. grind/sand down the protruding rib on the inside of the cover closest to the inspection hole and one side of the sleeve & flange
+ 2. press the sleeve bearing into the inspection hole from the inside with a rubber mallet and a large diameter punch or bold head
+
+![ground and pressed sleeve bearing](images/1000010096.jpeg)
+
+3. grind off the protruding portion of the sleeve from the outside
+
+![assembled hall effect sensor](images/1000010097.jpeg)
+
+4. clean up the grind and tap the sleeve with an m12x1mm tap
+
+Once tapped, the hall effect sensor should be able to thread easily into the sleeve bearing. This method uses the flange to keep the sensor from backing out of the cover without relying on adhesives.
+
+![assembled hall effect sensor](images/1000010098.jpeg)
+
+
+### AFM modification
+
+For all intents and purposes, the AFM will be used as a glorified intake tube. The gate must be held in the open position to allow full flow of air - this can be done with the [afm gate stop](https://www.thingiverse.com/thing:6618742):
+
+ 1. remove the plastic cover on the AFM to reveal its electronics (should pry up - should have some type of silicone or adhesive holding it)
+
+ ![afm opened](images/1000010201.jpeg)
+
+ 2. unplug both terminals leading to the sensor plug, remove the 4 sensor plug mounting screws (keep track of the screws), and pull the sensor plug out of the case
+ 
+ 3. remove the contact wiper arm retaining screw and pull the contact wiper arm out of the case
+
+ ![afm sensor plug removal](images/1000010202.jpeg)
+
+ 4. remove the 3 plate mounting screws holding the resistor board down and remove the resistor board
+
+ ![afm contact board removal](images/1000010203.jpeg)
+
+ 5. remove the clamp bolt and remove the contact mount
+
+ 6. remove the bolt holding the spring dial retention clip and remove the retention clip (keep track of the bolt)
+
+ ![afm contact and spring dial clip removal](images/1000010204.jpeg)
+
+ 7. slide the spring dial off the gate shaft (it's a tight fit, so a flat-head screwdriver may be necessary)
+
+ 8. remove the snap ring (image shows it still in place)
+
+ ![afm spring dial removal](images/1000010205.jpeg)
+
+ 9. push the air gate open and slide the [afm gate stop](https://www.thingiverse.com/thing:6618742) down the shaft
+
+ 10. bolt the gate stop down
+
+ ![afm gate stop install](images/1000010229.jpeg)
+
+ 11. attach the [sensor plug block off](https://www.thingiverse.com/thing:6618742) on the outside of where the sensor plug was removed using the same 4 screws
+
+ ![afm sensor plug block off install](images/1000010254.jpeg)
+
+>Note: sealing the sensor plug block off isn't necessary due to the use of a MAP sensor
+
+ 12. put a thin bead of high-temp silicone along the top walls where the plastic cover sits and press the cover on
+
+
+### IAT installation
+
+### TPS adapter
