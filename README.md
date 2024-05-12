@@ -13,7 +13,6 @@ The purpose of this repository is to walk through the microsquirt conversion pro
  2. [Printed Parts](#printed-parts)
  3. [Required Parts](#required-parts)
  4. [Putting it Together](#putting-it-together)
- 5. [Acknowledgments](#acknowledgments)
 
 
 ## Useful Links
@@ -152,11 +151,11 @@ For all intents and purposes, the AFM will be used as a glorified intake tube. T
 
  ![afm gate stop install](images/1000010229.jpeg)
 
- 11. attach the [sensor plug block off](https://www.thingiverse.com/thing:6618742) on the outside of where the sensor plug was removed using the same 4 screws
+ 11. attach the [sensor plug block off](https://www.thingiverse.com/thing:6618742) on the outside of where the sensor plug was removed
 
  ![afm sensor plug block off install](images/1000010254.jpeg)
 
->Note: sealing the sensor plug block off isn't necessary due to the use of a MAP sensor
+>Note: sealing the sensor plug block off isn't necessary due to the use of the MAP sensor
 
  12. put a thin bead of high-temp silicone along the top walls where the plastic cover sits and press the cover on
 
