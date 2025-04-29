@@ -41,6 +41,7 @@ All parts were designed to be printed on an Ender 5+ and sliced with Cura. Some 
  * [IAT intake tube](https://www.thingiverse.com/thing:6598815)
  * [m50 TPS adapter](https://www.thingiverse.com/thing:6610332)
 
+> Note: the AFM mods and TPS adapter were eventually sent to be machined by a 3rd party service ([SendCutSend](https://sendcutsend.com/)) in 6061 T6 aluminum. While certain plastics likely would have worked well, I opted for a more rigid and heat-tolerant material. They totalled roughly $25.
 
 ## Required Parts
 
