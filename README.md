@@ -59,16 +59,20 @@ It should also be noted that the total cost includes taxes and shipping midway t
     * [m12 x 1.00 tap](https://www.amazon.com/gp/product/B09X7HYMFM) | M12X1.0_Hand_Tap_RH | `$12.87`
     * [2.4k ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDFRYPK) | B07HDFRYPK | `$5.89`
  3. [GM 1 bar MAP with pigtail](https://www.ebay.com/itm/324792585183) | 12223861 | `$17.17`
- 4. [IGN-4 coil](https://thedubshop.com/ign-4vw-coil-pack/) | IGN-4 | `$59.95`
- 5. [4x 33# high-impedence fuel injectors](https://www.ebay.com/itm/266002307469) | 0280150431 | `$96.17`
- 6. [GM IAT open-element sensor](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/) | IATwPiggy | `$24.49`
- 7. TPS
+ 4. [8x Chevy Ignition Coil](https://www.amazon.com/dp/B07FV8C4KJ) | 12611424  | `$89.99`
+ 5. [2x LS Ignition Coil Bracket](https://www.amazon.com/dp/B0BBR26F6S) | 12558693  | `$26.99`
+ 6. [4x 33# high-impedence fuel injectors](https://www.ebay.com/itm/266002307469) | 0280150431 | `$96.17`
+ 7. [GM IAT open-element sensor](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/) | IATwPiggy | `$24.49`
+ 8. TPS
     * [m50 TPS](https://www.autozone.com/engine-management/throttle-position-sensor-tps/p/uro-throttle-position-sensor-tps-uro-017795/1323039_0_0?searchText=13631721456) | 13631721456 | `$55.81`
     * [2x m3x25 bolt with nut](https://www.amazon.com/gp/product/B0BPFXP2M9) | BXG-M3-400-0012 | `$25.68`
- 8. [spartan 2 wideband with LSU 4.9]() (discont. use spartan 3) | NA | `$125.00`
- 9. [18"x8" aluminum sheet metal](https://www.acehardware.com/departments/hardware/metal-sheets-and-rods/sheet-metal/5157615) | 5157615 | `$12.99`
+ 9. [spartan 2 wideband with LSU 4.9]() (discont. use spartan 3) | NA | `$125.00`
+ 10. [18"x8" aluminum sheet metal](https://www.acehardware.com/departments/hardware/metal-sheets-and-rods/sheet-metal/5157615) | 5157615 | `$12.99`
+ 11. [48-position PDC with Terminal Seals](https://www.kinnettickreations.com/product-page/48-position-pdc) | NA | `$55.00`
+ 12. [2x 4-pin High Capacity Relay](https://www.kinnettickreations.com/product-page/4-pin-high-capacity-iso-280-relay) | NA | `$10.00`
+ 13. [Mini fuse kit](https://www.amazon.com/dp/B0D5CZNPQW) | BXS001 | `$5.98`
 
-Total parts cost: `$869.62`
+Total parts cost: `$1,012.62`
 
 
 ## Additional Parts Considered
