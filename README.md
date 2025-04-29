@@ -65,6 +65,7 @@ It should also be noted that the total cost includes taxes and shipping midway t
     * [m50 TPS](https://www.autozone.com/engine-management/throttle-position-sensor-tps/p/uro-throttle-position-sensor-tps-uro-017795/1323039_0_0?searchText=13631721456) | 13631721456 | `$55.81`
     * [2x m3x25 bolt with nut](https://www.amazon.com/gp/product/B0BPFXP2M9) | BXG-M3-400-0012 | `$25.68`
  8. [spartan 2 wideband with LSU 4.9]() (discont. use spartan 3) | NA | `$125.00`
+ 9. [18"x8" aluminum sheet metal](https://www.acehardware.com/departments/hardware/metal-sheets-and-rods/sheet-metal/5157615) | 5157615 | `$12.99`
 
 Total parts cost: `$869.62`
 
@@ -73,22 +74,20 @@ Total parts cost: `$869.62`
 
 The following are parts that were considered but not used. The indices here correlate with those in the [required parts](#required-parts) section above, as does the structure and format, but the cost may or may not include taxes and shipping as they weren't actually purchased. Additional research should be done before purchasing anything listed here to ensure it will work for your application if you choose to alter your route.
 
- 2. Cam sync
-
+ 1. Cam sync
     * [hall speed sensor, digikey](https://www.digikey.com/en/products/detail/zf-electronics/GS100502/361998) | GS100502 | `$46.36`
     * [hall speed sensor, diyautotune](https://www.diyautotune.com/product/crankshaft-position-sensor-hall-effect-threaded-body/) | HallThreaded-K | `$102.99`
     * [camshaft trigger kit, clewett](https://www.clewett.com/index.php?main_page=product_info&cPath=59&products_id=306) | 1002-08 | `$195.00`
     * [camshaft trigger kit, lindsey racing](https://www.lindseyracing.com/LR/Porsche/LRA-EM-CAM-ASSY.html) | LRA-EM-CAM | `$475.00`
- 3. MAP
+ 2. MAP
     * [GM 1 bar MAP, amazon](https://www.amazon.com/AUTEX-Manifold-Absolute-Pressure-Compatible/dp/B0BB6J8PB2) | 19106672 | `$15.05`
     * [GM 1 bar MAP, clewett](https://www.clewett.com/index.php?main_page=product_info&products_id=80) | 71110 | `$61.00`
- 4. [LS2 coil pack](https://thedubshop.com/ls2-coil-pack-set-import/) | IGN_COIL_LS2-IMP-SET
+ 3. [LS2 coil pack](https://thedubshop.com/ls2-coil-pack-set-import/) | IGN_COIL_LS2-IMP-SET
  | `$99.95`
- 5. TPS
+ 4. TPS
     * [951, ebay, used](https://www.ebay.com/itm/166226599785) | 280120400 | `$124.99`
     * [951, ebay, new](https://www.ebay.com/itm/362088697124) | 280120400 | `$244.97`
- 
-* [distributor delete plate](https://www.clewett.com/index.php?main_page=product_info&products_id=309) | 1002-06 | `$56.00`
+ 5. [distributor delete plate](https://www.clewett.com/index.php?main_page=product_info&products_id=309) | 1002-06 | `$56.00`
 
 
 ## Putting it Together
