@@ -45,34 +45,32 @@ All parts were designed to be printed on an Ender 5+ and sliced with Cura. Some 
 
 ## Required Parts
 
-The following parts are what were chosen based on price, shipping times, ease of install, or a combination of the aforementioned. Additional parts that were considered but not used are listed [here](#additional-parts-considered). It should be noted that the format is as follows:
+The following parts are what were chosen based on price, shipping times, ease of install, or a combination of the aforementioned. Additional parts that were considered but not used are listed [here](#additional-parts-considered). Some parts were purchased in multiples or bulk (e.g. fuses) because it was cheaper or nearly the same price to do so.
 
-> part description | part number | total cost
+It should be noted that the total cost includes taxes and shipping midway through 2024; prices may be different depending on location, availability, and other miscellaneous factors (e.g. inflation, price hikes, etc.).
 
-It should also be noted that the total cost includes taxes and shipping midway through 2024; prices may be different depending on location, availability, and other miscellaneous factors (e.g. inflation, price hikes, etc.).
+| Group       | Item | Part Number | Price |
+|-------------|------|-------------|-------|
+| ECU         | [MicroSquirt with 8' harness](https://www.diyautotune.com/product/microsquirt-engine-management-system-w-8-foot-wiring-harness/) | MicroSqrt8 | `$390.95` |
+| ECU         | [18"x8" aluminum sheet metal](https://www.acehardware.com/departments/hardware/metal-sheets-and-rods/sheet-metal/5157615) | 5157615 | `$12.99` |
+| ECU         | [48-position PDC with Terminal Seals](https://www.kinnettickreations.com/product-page/48-position-pdc) | NA | `$55.00` |
+| ECU         | [2x 4-pin High Capacity Relay](https://www.kinnettickreations.com/product-page/4-pin-high-capacity-iso-280-relay) | NA | `$10.00` |
+| ECU         | [Mini fuse kit](https://www.amazon.com/dp/B0D5CZNPQW) | BXS001 | `$5.98` |
+| Cam Sync    | [Hall speed sensor](https://www.mouser.com/ProductDetail/ZF/GS100502?qs=%252BrIg%2FMSiRkGdf1qMOzs5Xg%3D%3D&utm_id=9491304176&gad_source=1&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVAihIm4DqOo11p2CdtaJ0S1ohU4vojb2HMMw9gx_RUu-maX6Dfi2KxoCSI4QAvD_BwE) | 540-GS100502 | `$45.05` |
+| Cam Sync    | [Flanged sleeve bearing](https://www.mcmaster.com/) | 7815K62 | `$12.59` |
+| Cam Sync    | [M12 x 1.00 tap](https://www.amazon.com/gp/product/B09X7HYMFM) | M12X1.0_Hand_Tap_RH | `$12.87` |
+| Cam Sync    | [2.4k ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDFRYPK) | B07HDFRYPK | `$5.89` |
+| MAP         | [GM 1 bar MAP with pigtail](https://www.ebay.com/itm/324792585183) | 12223861 | `$17.17` |
+| Ignition    | [8x Chevy Ignition Coil](https://www.amazon.com/dp/B07FV8C4KJ) | 12611424 | `$89.99` |
+| Ignition    | [2x LS Ignition Coil Bracket](https://www.amazon.com/dp/B0BBR26F6S) | 12558693 | `$26.99` |
+| Fuel        | [4x 33# high-impedance fuel injectors](https://www.ebay.com/itm/266002307469) | 0280150431 | `$96.17` |
+| Intake      | [GM IAT open-element sensor](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/) | IATwPiggy | `$24.49` |
+| TPS         | [m50 TPS](https://www.autozone.com/engine-management/throttle-position-sensor-tps/p/uro-throttle-position-sensor-tps-uro-017795/1323039_0_0?searchText=13631721456) | 13631721456 | `$55.81` |
+| TPS         | [2x m3x25 bolt with nut](https://www.amazon.com/gp/product/B0BPFXP2M9) | BXG-M3-400-0012 | `$25.68` |
+| O2          | [Spartan 2 wideband with LSU 4.9]() (discont. use Spartan 3) | NA | `$125.00` |
 
- 1. [MicroSquirt with 8' harness](https://www.diyautotune.com/product/microsquirt-engine-management-system-w-8-foot-wiring-harness/) | MicroSqrt8 | `$390.95`
- 2. Cam sync
 
-    * [hall speed sensor](https://www.mouser.com/ProductDetail/ZF/GS100502?qs=%252BrIg%2FMSiRkGdf1qMOzs5Xg%3D%3D&utm_id=9491304176&gad_source=1&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVAihIm4DqOo11p2CdtaJ0S1ohU4vojb2HMMw9gx_RUu-maX6Dfi2KxoCSI4QAvD_BwE) | 540-GS100502 | `$45.05`
-    * [flanged sleeve bearing](https://www.mcmaster.com/) | 7815K62 | `$12.59`
-    * [m12 x 1.00 tap](https://www.amazon.com/gp/product/B09X7HYMFM) | M12X1.0_Hand_Tap_RH | `$12.87`
-    * [2.4k ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDFRYPK) | B07HDFRYPK | `$5.89`
- 3. [GM 1 bar MAP with pigtail](https://www.ebay.com/itm/324792585183) | 12223861 | `$17.17`
- 4. [8x Chevy Ignition Coil](https://www.amazon.com/dp/B07FV8C4KJ) | 12611424  | `$89.99`
- 5. [2x LS Ignition Coil Bracket](https://www.amazon.com/dp/B0BBR26F6S) | 12558693  | `$26.99`
- 6. [4x 33# high-impedence fuel injectors](https://www.ebay.com/itm/266002307469) | 0280150431 | `$96.17`
- 7. [GM IAT open-element sensor](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/) | IATwPiggy | `$24.49`
- 8. TPS
-    * [m50 TPS](https://www.autozone.com/engine-management/throttle-position-sensor-tps/p/uro-throttle-position-sensor-tps-uro-017795/1323039_0_0?searchText=13631721456) | 13631721456 | `$55.81`
-    * [2x m3x25 bolt with nut](https://www.amazon.com/gp/product/B0BPFXP2M9) | BXG-M3-400-0012 | `$25.68`
- 9. [spartan 2 wideband with LSU 4.9]() (discont. use spartan 3) | NA | `$125.00`
- 10. [18"x8" aluminum sheet metal](https://www.acehardware.com/departments/hardware/metal-sheets-and-rods/sheet-metal/5157615) | 5157615 | `$12.99`
- 11. [48-position PDC with Terminal Seals](https://www.kinnettickreations.com/product-page/48-position-pdc) | NA | `$55.00`
- 12. [2x 4-pin High Capacity Relay](https://www.kinnettickreations.com/product-page/4-pin-high-capacity-iso-280-relay) | NA | `$10.00`
- 13. [Mini fuse kit](https://www.amazon.com/dp/B0D5CZNPQW) | BXS001 | `$5.98`
-
-Total parts cost: `$1,012.62`
+**Total Parts Cost: `$1,012.62`**
 
 
 ## Additional Parts Considered
