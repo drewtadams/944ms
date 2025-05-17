@@ -56,6 +56,7 @@ It should be noted that the total cost includes taxes and shipping midway throug
 | ECU         | [48-position PDC with Terminal Seals](https://www.kinnettickreations.com/product-page/48-position-pdc) | NA | `$55.00` |
 | ECU         | [2x 4-pin High Capacity Relay](https://www.kinnettickreations.com/product-page/4-pin-high-capacity-iso-280-relay) | NA | `$10.00` |
 | ECU         | [Mini fuse kit](https://www.amazon.com/dp/B0D5CZNPQW) | BXS001 | `$5.98` |
+| ECU         | [36A 6-position terminal block](https://www.amazon.com/dp/B0B24FZWPH) | TB-3506 | `$8.99` |
 | Cam Sync    | [Hall speed sensor](https://www.mouser.com/ProductDetail/ZF/GS100502?qs=%252BrIg%2FMSiRkGdf1qMOzs5Xg%3D%3D&utm_id=9491304176&gad_source=1&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVAihIm4DqOo11p2CdtaJ0S1ohU4vojb2HMMw9gx_RUu-maX6Dfi2KxoCSI4QAvD_BwE) | 540-GS100502 | `$45.05` |
 | Cam Sync    | [Flanged sleeve bearing](https://www.mcmaster.com/) | 7815K62 | `$12.59` |
 | Cam Sync    | [M12 x 1.00 tap](https://www.amazon.com/gp/product/B09X7HYMFM) | M12X1.0_Hand_Tap_RH | `$12.87` |
@@ -70,7 +71,7 @@ It should be noted that the total cost includes taxes and shipping midway throug
 | O2          | [Spartan 2 wideband with LSU 4.9]() (discont. use Spartan 3) | NA | `$125.00` |
 
 
-**Total Parts Cost: `$1,012.62`**
+**Total Parts Cost: `$1,021.61`**
 
 
 ## Additional Parts Considered
@@ -165,3 +166,15 @@ For all intents and purposes, the AFM will be used as a glorified intake tube. T
 ### IAT installation
 
 ### TPS adapter
+
+### Wiring it up
+
+I followed this diagram published by James Murray on page 15 of the [Microsquirt Hardware Manual](https://www.msextra.com/doc/pdf/html/Microsquirt_Hardware-3.4.pdf/Microsquirt_Hardware-3.4.html):
+
+![microsquirt v3 wiring diagram](images/ms_v3_wiring_diagram.jpg)
+
+I opted to make a relay board of sorts using the 6-position terminal block and 48-position PDC on an 8" wide aluminum sheet:
+
+![](images/1000011392.jpg)
+
+![](images/1000011394.jpg)
