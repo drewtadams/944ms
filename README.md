@@ -24,6 +24,7 @@ Though detailed instructions of the entire build can be found in the [Putting it
  * [General parts overview and tune settings](https://rennlist.com/forums/924-931-944-951-968-forum/831248-a-practical-guide-to-megasquirting-your-944-a.html)
  * [General discussion](https://rennlist.com/forums/924-931-944-951-968-forum/860305-who-is-using-microsquirt-megasquirt.html)
  * Hall sensor on cam: [msextra](https://www.msextra.com/forums/viewtopic.php?t=69564) and [rennlist](https://rennlist.com/forums/944-turbo-and-turbo-s-forum/1088676-fyi-crank-trigger-solution-for-30-no-trigger-wheel-needed.html)
+ * [Generic wiring guide](https://rennlist.com/forums/924-931-944-951-968-forum/424355-microsquirt-stand-alone-ecu-installation-guide.html) (particularly useful when used in conjunction with the [speed/reference sensor pinout](https://www.clarks-garage.com/shop-manual/ign-02.htm) for connecting hall sensor to VR-1 or VR-1)
  * [Youtube wiring playlist](https://www.youtube.com/playlist?list=PL6KUN7OA-UQNufmcnJdhSTtK0emy2OQQv)
  * General build checklist: [reddit](https://www.reddit.com/r/megasquirt/comments/3fw4x1/porsche_944_microsquirt_project_completed/) or [msextra](https://www.msextra.com/forums/viewtopic.php?t=59524)
  * TPS alternatives: [951](https://rennlist.com/forums/944-turbo-and-turbo-s-forum/1267168-951-throttle-position-sensor-tps-alternative-solution.html) or [m50](https://rennlist.com/forums/944-turbo-and-turbo-s-forum/968375-what-alternate-tps-units-fit-our-throttle-bodies-2.html)
@@ -49,27 +50,27 @@ The following parts are what were chosen based on price, shipping times, ease of
 
 It should be noted that the total cost includes taxes and shipping midway through 2024; prices may be different depending on location, availability, and other miscellaneous factors (e.g. inflation, price hikes, etc.).
 
-| Group       | Item | Part Number | Price |
-|-------------|------|-------------|-------|
-| ECU         | [MicroSquirt with 8' harness](https://www.diyautotune.com/product/microsquirt-engine-management-system-w-8-foot-wiring-harness/) | MicroSqrt8 | `$390.95` |
-| ECU         | [18"x8" aluminum sheet metal](https://www.acehardware.com/departments/hardware/metal-sheets-and-rods/sheet-metal/5157615) | 5157615 | `$12.99` |
-| ECU         | [48-position PDC with Terminal Seals](https://www.kinnettickreations.com/product-page/48-position-pdc) | NA | `$55.00` |
-| ECU         | [2x 4-pin High Capacity Relay](https://www.kinnettickreations.com/product-page/4-pin-high-capacity-iso-280-relay) | NA | `$10.00` |
-| ECU         | [Mini fuse kit](https://www.amazon.com/dp/B0D5CZNPQW) | BXS001 | `$5.98` |
-| ECU         | [36A 6-position terminal block](https://www.amazon.com/dp/B0B24FZWPH) | TB-3506 | `$8.99` |
-| Cam Sync    | [Hall speed sensor](https://www.mouser.com/ProductDetail/ZF/GS100502?qs=%252BrIg%2FMSiRkGdf1qMOzs5Xg%3D%3D&utm_id=9491304176&gad_source=1&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVAihIm4DqOo11p2CdtaJ0S1ohU4vojb2HMMw9gx_RUu-maX6Dfi2KxoCSI4QAvD_BwE) | 540-GS100502 | `$45.05` |
-| Cam Sync    | [Flanged sleeve bearing](https://www.mcmaster.com/) | 7815K62 | `$12.59` |
-| Cam Sync    | [M12 x 1.00 tap](https://www.amazon.com/gp/product/B09X7HYMFM) | M12X1.0_Hand_Tap_RH | `$12.87` |
-| Cam Sync    | [2.4k ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDFRYPK) | B07HDFRYPK | `$5.89` |
-| MAP         | [GM 1 bar MAP with pigtail](https://www.ebay.com/itm/324792585183) | 12223861 | `$17.17` |
-| Ignition    | [8x Chevy Ignition Coil](https://www.amazon.com/dp/B07FV8C4KJ) | 12611424 | `$89.99` |
-| Ignition    | [2x LS Ignition Coil Bracket](https://www.amazon.com/dp/B0BBR26F6S) | 12558693 | `$26.99` |
-| Fuel        | [4x 33# high-impedance fuel injectors](https://www.ebay.com/itm/266002307469) | 0280150431 | `$96.17` |
-| Intake      | [GM IAT open-element sensor](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/) | IATwPiggy | `$24.49` |
-| TPS         | [m50 TPS](https://www.autozone.com/engine-management/throttle-position-sensor-tps/p/uro-throttle-position-sensor-tps-uro-017795/1323039_0_0?searchText=13631721456) | 13631721456 | `$55.81` |
-| TPS         | [2x m3x25 bolt with nut](https://www.amazon.com/gp/product/B0BPFXP2M9) | BXG-M3-400-0012 | `$25.68` |
-| O2          | [Spartan 2 wideband with LSU 4.9]() (discont. use Spartan 3) | NA | `$125.00` |
-
+| Group        | Item | Part Number | Price |
+|--------------|------|-------------|-------|
+| Cam Sync     | [Hall speed sensor](https://www.mouser.com/ProductDetail/ZF/GS100502?qs=%252BrIg%2FMSiRkGdf1qMOzs5Xg%3D%3D&utm_id=9491304176&gad_source=1&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVAihIm4DqOo11p2CdtaJ0S1ohU4vojb2HMMw9gx_RUu-maX6Dfi2KxoCSI4QAvD_BwE) | 540-GS100502 | `$45.05` |
+| Cam Sync     | [Flanged sleeve bearing](https://www.mcmaster.com/) | 7815K62 | `$12.59` |
+| Cam Sync     | [M12 x 1.00 tap](https://www.amazon.com/gp/product/B09X7HYMFM) | M12X1.0_Hand_Tap_RH | `$12.87` |
+| Cam Sync     | [2.4k ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDFRYPK) | B07HDFRYPK | `$5.89` |
+| ECU          | [MicroSquirt with 8' harness](https://www.diyautotune.com/product/microsquirt-engine-management-system-w-8-foot-wiring-harness/) | MicroSqrt8 | `$390.95` |
+| ECU          | [18"x8" aluminum sheet metal](https://www.acehardware.com/departments/hardware/metal-sheets-and-rods/sheet-metal/5157615) | 5157615 | `$12.99` |
+| ECU          | [48-position PDC with Terminal Seals](https://www.kinnettickreations.com/product-page/48-position-pdc) | NA | `$55.00` |
+| ECU          | [2x 4-pin High Capacity Relay](https://www.kinnettickreations.com/product-page/4-pin-high-capacity-iso-280-relay) | NA | `$10.00` |
+| ECU          | [Mini fuse kit](https://www.amazon.com/dp/B0D5CZNPQW) | BXS001 | `$5.98` |
+| ECU          | [36A 6-position terminal block](https://www.amazon.com/dp/B0B24FZWPH) | TB-3506 | `$8.99` |
+| Fuel         | [4x 33# high-impedance fuel injectors](https://www.ebay.com/itm/266002307469) | 0280150431 | `$96.17` |
+| Ignition     | [8x Chevy Ignition Coil](https://www.amazon.com/dp/B07FV8C4KJ) (only need 4) | 12611424 | `$89.99` |
+| Ignition     | [2x LS Ignition Coil Bracket](https://www.amazon.com/dp/B0BBR26F6S) | 12558693 | `$26.99` |
+| Intake       | [GM IAT open-element sensor](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/) | IATwPiggy | `$24.49` |
+| MAP          | [GM 1 bar MAP with pigtail](https://www.ebay.com/itm/324792585183) | 12223861 | `$17.17` |
+| O2           | [Spartan 2 wideband with LSU 4.9](https://www.14point7.com/products/spartan-lambda-controller-2) (discont. use Spartan 3) | NA | `$125.00` |
+| Speed Sensor | [3 pin Bosch EV1 connector](https://www.amazon.com/dp/B0D6Y4Z4FP) | 191972525B | `$11.39` |
+| TPS          | [m50 TPS](https://www.autozone.com/engine-management/throttle-position-sensor-tps/p/uro-throttle-position-sensor-tps-uro-017795/1323039_0_0?searchText=13631721456) | 13631721456 | `$55.81` |
+| TPS          | [2x m3x25 bolt with nut](https://www.amazon.com/gp/product/B0BPFXP2M9) | BXG-M3-400-0012 | `$25.68` |
 
 **Total Parts Cost: `$1,021.61`**
 
