@@ -1,7 +1,6 @@
 ---
 title: "Legal Disclaimer and Safety Warning"
 layout: page
-permalink: /disclaimer/
 ---
 
 # DISCLAIMER AND WARNING
