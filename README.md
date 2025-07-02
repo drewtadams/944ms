@@ -6,7 +6,7 @@ The purpose of this guide is to walk through the microsquirt conversion process 
 2. avoid or minimize the amount of non-bolt-on modifications and fabrication
 3. for any part that must be fabricated, try to do so in a way that is easily or readily available (e.g. 3d printing)
 
-**Please read the [DISCLAIMER](disclaimer.md) before proceeding with any modifications.**
+**Please read the [DISCLAIMER](disclaimer) before proceeding with any modifications.**
 
 
 ## Sections
