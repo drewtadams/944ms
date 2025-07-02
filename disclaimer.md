@@ -1,8 +1,3 @@
----
-title: "Legal Disclaimer and Safety Warning"
-layout: page
----
-
 # DISCLAIMER AND WARNING
 
 **READ THIS ENTIRE DISCLAIMER BEFORE PROCEEDING**

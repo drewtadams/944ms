@@ -14,3 +14,11 @@ show_excerpts: true
 
 # Disable automatic navigation generation
 header_pages: []
+
+# Disable minima's automatic page listing
+minima:
+  date_format: "%b %-d, %Y"
+  
+# Override repository name display
+github_username: ""
+repository: ""
