@@ -1,10 +1,12 @@
 # 944ms
 
-The purpose of this repository is to walk through the microsquirt conversion process on an early Porsche 944 with the following goals in mind:
+The purpose of this guide is to walk through the microsquirt conversion process on an early Porsche 944 with the following goals in mind:
 
 1. utilize as many of the stock parts as possible
 2. avoid or minimize the amount of non-bolt-on modifications and fabrication
 3. for any part that must be fabricated, try to do so in a way that is easily or readily available (e.g. 3d printing)
+
+**Please read the [DISCLAIMER](disclaimer.md) before proceeding with any modifications.**
 
 
 ## Sections
