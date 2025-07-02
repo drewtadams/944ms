@@ -1,0 +1,26 @@
+title: "Porsche 944 MicroSquirt Conversion"
+description: "Documentation for converting NA Porsche 944 to MicroSquirt ECU"
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - disclaimer.md
+  - installation.md
+  - wiring.md
+  - tuning.md
+  - troubleshooting.md
+  - parts.md
+
+# Show excerpts on homepage
+show_excerpts: true
+
+# GitHub repository (for "View on GitHub" link)
+github_username: [your-username]
+repository: [your-repo-name]
